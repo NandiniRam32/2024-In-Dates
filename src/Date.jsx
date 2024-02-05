@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Date = ({ setCurrentPage, TinDrumImage, date, Momonoki, Sankranti, SweetHut, month, setMonth, Sankranti2 }) => {
+export const Date = ({ setCurrentPage, TinDrumImage, date, Momonoki, Sankranti, SweetHut, month, setMonth, Sankranti2, NaveLol }) => {
   const handleSetPage = (selectedPage) => {
     setCurrentPage(selectedPage);
   };
@@ -17,6 +17,9 @@ export const Date = ({ setCurrentPage, TinDrumImage, date, Momonoki, Sankranti, 
     setMonth("February");
   } else if (date === "2/03") {
     backgroundImage = Sankranti2;
+    setMonth("February");
+  } else if (date === "2/04") {
+    backgroundImage = NaveLol;
     setMonth("February");
   }
 
