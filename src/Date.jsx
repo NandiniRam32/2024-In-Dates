@@ -1,6 +1,7 @@
 import React from "react";
 
-export const Date = ({ setCurrentPage, TinDrumImage, date, Momonoki, Sankranti, SweetHut, month, setMonth, Sankranti2, NaveLol }) => {
+export const Date = ({ setCurrentPage, TinDrumImage, date, Momonoki, Sankranti, SweetHut, month, setMonth, Sankranti2, NaveLol, 
+  ImFondueYou, GeorgiaAquarium }) => {
   const handleSetPage = (selectedPage) => {
     setCurrentPage(selectedPage);
   };
@@ -20,6 +21,12 @@ export const Date = ({ setCurrentPage, TinDrumImage, date, Momonoki, Sankranti, 
     setMonth("February");
   } else if (date === "2/04") {
     backgroundImage = NaveLol;
+    setMonth("February");
+  } else if (date === "2/05") {
+    backgroundImage = ImFondueYou;
+    setMonth("February");
+  } else if (date === "2/09") {
+    backgroundImage = GeorgiaAquarium;
     setMonth("February");
   }
 

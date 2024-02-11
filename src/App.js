@@ -33,6 +33,8 @@ import NovemberImage from './components/NovemberImage.jpg';
 import DecemberImage from './components/DecemberImage.jpg';
 import Sankranti2 from './components/Sankranti2.jpg';
 import NaveLol from './components/NaveLol.jpg';
+import ImFondueYou from './components/ImFondueYou.jpg';
+import GeorgiaAquarium from './components/GeorgiaAquarium.jpg';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('main');
@@ -48,7 +50,8 @@ const App = () => {
           return <January setCurrentPage={setCurrentPage} JanuaryImage={JanuaryImage} Diamond={Diamond} setDate={setDate} date={date} />;
         } else if (currentPage === "Date") {
           return <Date setCurrentPage={setCurrentPage} TinDrumImage={TinDrumImage} Momonoki={Momonoki} date={date} Sankranti={Sankranti} 
-          SweetHut={SweetHut} month={month} setMonth={setMonth} Sankranti2={Sankranti2} NaveLol={NaveLol}/>;
+          SweetHut={SweetHut} month={month} setMonth={setMonth} Sankranti2={Sankranti2} NaveLol={NaveLol} ImFondueYou={ImFondueYou} 
+          GeorgiaAquarium={GeorgiaAquarium}/>;
         } else if (currentPage === "February") {
           return <February setCurrentPage={setCurrentPage} Diamond={Diamond} setDate={setDate} date={date} 
           FebruaryImage={FebruaryImage}/>;
