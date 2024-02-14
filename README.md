@@ -32,8 +32,8 @@ What number hides behind the door?
 __________-________-____.vercel.app
 
 Good luck!
+
     Sincerely,
-    
     Nandini
 
 Life is a collection of precious moments, and **My2024Dates** is your digital diary capturing the essence of our shared experiences throughout 2024. Browse through an enchanting gallery of photos, each telling a unique story, and relive the joyous memories that have made this year truly special.
