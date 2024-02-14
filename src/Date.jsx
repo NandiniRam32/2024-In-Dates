@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Date = ({ setCurrentPage, TinDrumImage, date, Momonoki, Sankranti, SweetHut, month, setMonth, Sankranti2, NaveLol, 
-  ImFondueYou, GeorgiaAquarium }) => {
+  ImFondueYou, GeorgiaAquarium, CafeIntermezzo }) => {
   const handleSetPage = (selectedPage) => {
     setCurrentPage(selectedPage);
   };
@@ -27,6 +27,9 @@ export const Date = ({ setCurrentPage, TinDrumImage, date, Momonoki, Sankranti, 
     setMonth("February");
   } else if (date === "2/09") {
     backgroundImage = GeorgiaAquarium;
+    setMonth("February");
+  } else if (date === "2/11") {
+    backgroundImage = CafeIntermezzo;
     setMonth("February");
   }
 
