@@ -7,6 +7,9 @@ export const Date = ({ setCurrentPage, TinDrumImage, date, Momonoki, Sankranti, 
   };
 
   let backgroundImage = TinDrumImage;
+  if (date === "1/10") {
+    setMonth("January");
+  }
   if (date === "1/17") {
     backgroundImage = Momonoki;
     setMonth("January");
