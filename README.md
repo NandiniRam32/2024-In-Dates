@@ -12,19 +12,19 @@ Welcome to **My2024Dates**, a heartwarming collection of cherished moments from 
 
 ## Overview
 
-![My2024Dates Logo](public/logo192.jpg)
+![My2024Dates Logo](public/logo256.jpg)
 
-- Riddle 1
+- Riddle 1:
 Hand in hand, we journey far,
 Guided by a distant star.
 Through laughter, tears, and all endeavors,
 We find our joy in shared _ _ _ _ _ _ _ _ _ _.
-- Riddle 2
+- Riddle 2:
 In union strong, we find our might,
 Apart, we’re adrift in the night.
 What word am I, both simple and clever?
 Uniting souls, we’re better ________.
-- Riddle 3
+- Riddle 3:
 In future’s grasp, I lie in wait,
 Four digits strong, sealing fate.
 When years have passed, I'll be no more,
