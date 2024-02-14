@@ -12,7 +12,26 @@ Welcome to **My2024Dates**, a heartwarming collection of cherished moments from 
 
 ## Overview
 
-![My2024Dates Logo](images/logo.png)
+![My2024Dates Logo](src/logo.png)
+
+- Riddle 1
+Hand in hand, we journey far,
+Guided by a distant star.
+Through laughter, tears, and all endeavors,
+We find our joy in shared _ _ _ _ _ _ _ _ _ _.
+- Riddle 2
+In union strong, we find our might,
+Apart, we’re adrift in the night.
+What word am I, both simple and clever?
+Uniting souls, we’re better ________.
+- Riddle 3
+In future’s grasp, I lie in wait,
+Four digits strong, sealing fate.
+When years have passed, I'll be no more,
+What number hides behind the door?
+__________-________-____.vercel.app
+Good luck!
+    - Nandini
 
 Life is a collection of precious moments, and **My2024Dates** is your digital diary capturing the essence of our shared experiences throughout 2024. Browse through an enchanting gallery of photos, each telling a unique story, and relive the joyous memories that have made this year truly special.
 
