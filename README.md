@@ -12,7 +12,7 @@ Welcome to **My2024Dates**, a heartwarming collection of cherished moments from 
 
 ## Overview
 
-![My2024Dates Logo](public/logo192.png)
+![My2024Dates Logo](public/logo192.jpg)
 
 - Riddle 1
 Hand in hand, we journey far,
