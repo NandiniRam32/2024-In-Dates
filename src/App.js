@@ -36,6 +36,8 @@ import NaveLol from './components/NaveLol.jpg';
 import ImFondueYou from './components/ImFondueYou.jpg';
 import GeorgiaAquarium from './components/GeorgiaAquarium.jpg';
 import CafeIntermezzo from './components/CafeIntermezzo.jpg';
+import WokChi from './components/WokChi.png';
+import RrealTacos from './components/RrealTacos.jpg';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('main');
@@ -52,7 +54,7 @@ const App = () => {
         } else if (currentPage === "Date") {
           return <Date setCurrentPage={setCurrentPage} TinDrumImage={TinDrumImage} Momonoki={Momonoki} date={date} Sankranti={Sankranti} 
           SweetHut={SweetHut} month={month} setMonth={setMonth} Sankranti2={Sankranti2} NaveLol={NaveLol} ImFondueYou={ImFondueYou} 
-          GeorgiaAquarium={GeorgiaAquarium} CafeIntermezzo={CafeIntermezzo}/>;
+          GeorgiaAquarium={GeorgiaAquarium} CafeIntermezzo={CafeIntermezzo} WokChi={WokChi} RrealTacos={RrealTacos}/>;
         } else if (currentPage === "February") {
           return <February setCurrentPage={setCurrentPage} Diamond={Diamond} setDate={setDate} date={date} 
           FebruaryImage={FebruaryImage}/>;
