@@ -22,7 +22,10 @@ export const April = ({ setCurrentPage, Diamond, setDate, AprilImage }) => {
             <img src={arrow} alt="Img not Found" style={{ height: "4vw", width: "8vw", marginLeft: "4vw" }} onClick={() => 
                 handleSetPage("May")}/>
           </div>
-          <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "14vh" }}>
+          <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "20vh" }}>
+            <div style={{ backgroundImage: `url(${Diamond})`, height: "20vh", width: "40vh", backgroundSize: "100%", paddingTop: "1vh", 
+                    fontWeight: "bold", fontSize: "13vh", color: "black", display: "inline-block", marginLeft: "48px"}} onClick={() => 
+                  handleSetDate("4/03")}>03</div>
           </div>
           <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "10vh" }}>
             

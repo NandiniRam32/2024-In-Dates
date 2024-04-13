@@ -23,9 +23,22 @@ export const March = ({ setCurrentPage, Diamond, setDate, MarchImage }) => {
                 handleSetPage("April")}/>
           </div>
           <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "14vh" }}>
+            <div style={{ backgroundImage: `url(${Diamond})`, height: "20vh", width: "40vh", backgroundSize: "100%", paddingTop: "1vh", 
+                fontWeight: "bold", fontSize: "13vh", color: "black", display: "inline-block", marginLeft: "48px"}} onClick={() => 
+                handleSetDate("3/06")}>06</div>
+            <div style={{ backgroundImage: `url(${Diamond})`, height: "20vh", width: "40vh", backgroundSize: "100%", paddingTop: "1vh", 
+                fontWeight: "bold", fontSize: "13vh", color: "black", display: "inline-block", marginLeft: "48px"}} onClick={() => 
+                handleSetDate("3/08")}>08</div>
           </div>
           <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "10vh" }}>
-            
+            <div style={{ backgroundImage: `url(${Diamond})`, height: "20vh", width: "40vh", backgroundSize: "100%", paddingTop: "1vh", 
+                  fontWeight: "bold", fontSize: "13vh", color: "black", display: "inline-block", marginLeft: "48px"}} onClick={() => 
+                  handleSetDate("3/04")}>04</div>
+            <div style={{ backgroundImage: `url(${Diamond})`, height: "20vh", width: "40vh", backgroundSize: "100%", paddingTop: "1vh", 
+                  fontWeight: "bold", fontSize: "13vh", color: "black", display: "inline-block", marginLeft: "48px", opacity: "100"}}></div>
+            <div style={{ backgroundImage: `url(${Diamond})`, height: "20vh", width: "40vh", backgroundSize: "100%", paddingTop: "1vh", 
+                  fontWeight: "bold", fontSize: "13vh", color: "black", display: "inline-block", marginLeft: "48px"}} onClick={() => 
+                handleSetDate("3/29")}>29</div>
           </div>
         </div>
       </div>

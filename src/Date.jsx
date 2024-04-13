@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Date = ({ setCurrentPage, TinDrumImage, date, Momonoki, Sankranti, SweetHut, month, setMonth, Sankranti2, NaveLol, 
-  ImFondueYou, GeorgiaAquarium, CafeIntermezzo, WokChi, RrealTacos }) => {
+  ImFondueYou, GeorgiaAquarium, CafeIntermezzo, WokChi, RrealTacos, SriThai, BentoBus, LuckyBuddha, Chipotle, FoodTerminal, RrealTacos0403 }) => {
   const handleSetPage = (selectedPage) => {
     setCurrentPage(selectedPage);
   };
@@ -40,6 +40,24 @@ export const Date = ({ setCurrentPage, TinDrumImage, date, Momonoki, Sankranti, 
   } else if (date === "2/21") {
     backgroundImage = RrealTacos;
     setMonth("February");
+  } else if (date === "2/24") {
+    backgroundImage = SriThai;
+    setMonth("February");
+  } else if (date === "3/04") {
+    backgroundImage = BentoBus;
+    setMonth("March");
+  } else if (date === "3/06") {
+    backgroundImage = LuckyBuddha;
+    setMonth("March");
+  } else if (date === "3/08") {
+    backgroundImage = Chipotle;
+    setMonth("March");
+  } else if (date === "3/29") {
+    backgroundImage = FoodTerminal;
+    setMonth("March");
+  } else if (date === "4/03") {
+    backgroundImage = RrealTacos0403;
+    setMonth("April");
   }
 
   return (

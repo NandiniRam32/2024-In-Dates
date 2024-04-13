@@ -38,6 +38,12 @@ import GeorgiaAquarium from './components/GeorgiaAquarium.jpg';
 import CafeIntermezzo from './components/CafeIntermezzo.jpg';
 import WokChi from './components/WokChi.png';
 import RrealTacos from './components/RrealTacos.jpg';
+import SriThai from './components/SriThai.jpg';
+import BentoBus from './components/BentoBus.jpg';
+import LuckyBuddha from './components/LuckyBuddha.jpg';
+import Chipotle from './components/Chipotle.jpg';
+import FoodTerminal from './components/FoodTerminal.jpg';
+import RrealTacos0403 from './components/RrealTacos0403.jpg';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('main');
@@ -54,7 +60,8 @@ const App = () => {
         } else if (currentPage === "Date") {
           return <Date setCurrentPage={setCurrentPage} TinDrumImage={TinDrumImage} Momonoki={Momonoki} date={date} Sankranti={Sankranti} 
           SweetHut={SweetHut} month={month} setMonth={setMonth} Sankranti2={Sankranti2} NaveLol={NaveLol} ImFondueYou={ImFondueYou} 
-          GeorgiaAquarium={GeorgiaAquarium} CafeIntermezzo={CafeIntermezzo} WokChi={WokChi} RrealTacos={RrealTacos}/>;
+          GeorgiaAquarium={GeorgiaAquarium} CafeIntermezzo={CafeIntermezzo} WokChi={WokChi} RrealTacos={RrealTacos} SriThai={SriThai} BentoBus={BentoBus} 
+          LuckyBuddha={LuckyBuddha} Chipotle={Chipotle} FoodTerminal={FoodTerminal} RrealTacos0403={RrealTacos0403}/>;
         } else if (currentPage === "February") {
           return <February setCurrentPage={setCurrentPage} Diamond={Diamond} setDate={setDate} date={date} 
           FebruaryImage={FebruaryImage}/>;
