@@ -23,6 +23,9 @@ export const May = ({ setCurrentPage, Diamond, setDate, MayImage }) => {
                 handleSetPage("June")}/>
           </div>
           <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "14vh" }}>
+            <div style={{ backgroundImage: `url(${Diamond})`, height: "20vh", width: "40vh", backgroundSize: "100%", paddingTop: "1vh", 
+                      fontWeight: "bold", fontSize: "13vh", color: "black", display: "inline-block", marginLeft: "48px"}} onClick={() => 
+                    handleSetDate("5/03")}>03</div>
           </div>
           <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "10vh" }}>
             

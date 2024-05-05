@@ -23,34 +23,34 @@ export const February = ({ setCurrentPage, Diamond, setDate, FebruaryImage }) =>
                 handleSetPage("March")}/>
           </div>
           <div style={{ marginTop: "14vh" }}>
-            <div style={{ backgroundImage: `url(${Diamond})`, height: "20vh", width: "40vh", backgroundSize: "100%", paddingTop: "1vh", 
-              fontWeight: "bold", fontSize: "13vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
+            <div style={{ backgroundImage: `url(${Diamond})`, height: "18vh", width: "36vh", backgroundSize: "100%", paddingTop: "1vh", 
+              fontWeight: "bold", fontSize: "11vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
               handleSetDate("2/03")}>03</div>
-            <div style={{ backgroundImage: `url(${Diamond})`, height: "20vh", width: "40vh", backgroundSize: "100%", paddingTop: "1vh", 
-              fontWeight: "bold", fontSize: "13vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
+            <div style={{ backgroundImage: `url(${Diamond})`, height: "18vh", width: "36vh", backgroundSize: "100%", paddingTop: "1vh", 
+              fontWeight: "bold", fontSize: "11vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
               handleSetDate("2/05")}>05</div>
-            <div style={{ backgroundImage: `url(${Diamond})`, height: "20vh", width: "40vh", backgroundSize: "100%", paddingTop: "1vh", 
-                fontWeight: "bold", fontSize: "13vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
+            <div style={{ backgroundImage: `url(${Diamond})`, height: "18vh", width: "36vh", backgroundSize: "100%", paddingTop: "1vh", 
+                fontWeight: "bold", fontSize: "11vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
                 handleSetDate("2/11")}>11</div>
-            <div style={{ backgroundImage: `url(${Diamond})`, height: "20vh", width: "40vh", backgroundSize: "100%", paddingTop: "1vh", 
-                fontWeight: "bold", fontSize: "13vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
+            <div style={{ backgroundImage: `url(${Diamond})`, height: "18vh", width: "36vh", backgroundSize: "100%", paddingTop: "1vh", 
+                fontWeight: "bold", fontSize: "11vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
                 handleSetDate("2/21")}>21</div>
           </div>
           <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "10vh" }}>
-            <div style={{ backgroundImage: `url(${Diamond})`, height: "20vh", width: "40vh", backgroundSize: "100%", paddingTop: "1vh", 
-                fontWeight: "bold", fontSize: "13vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
+            <div style={{ backgroundImage: `url(${Diamond})`, height: "18vh", width: "36vh", backgroundSize: "100%", paddingTop: "1vh", 
+                fontWeight: "bold", fontSize: "11vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
                 handleSetDate("2/02")}>02</div>
-            <div style={{ backgroundImage: `url(${Diamond})`, height: "20vh", width: "40vh", backgroundSize: "100%", paddingTop: "1vh", 
-                fontWeight: "bold", fontSize: "13vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
+            <div style={{ backgroundImage: `url(${Diamond})`, height: "18vh", width: "36vh", backgroundSize: "100%", paddingTop: "1vh", 
+                fontWeight: "bold", fontSize: "11vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
                 handleSetDate("2/04")}>04</div>
-            <div style={{ backgroundImage: `url(${Diamond})`, height: "20vh", width: "40vh", backgroundSize: "100%", paddingTop: "1vh", 
-                fontWeight: "bold", fontSize: "13vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
+            <div style={{ backgroundImage: `url(${Diamond})`, height: "18vh", width: "36vh", backgroundSize: "100%", paddingTop: "1vh", 
+                fontWeight: "bold", fontSize: "11vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
                 handleSetDate("2/09")}>09</div>
-            <div style={{ backgroundImage: `url(${Diamond})`, height: "20vh", width: "40vh", backgroundSize: "100%", paddingTop: "1vh", 
-                fontWeight: "bold", fontSize: "13vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
+            <div style={{ backgroundImage: `url(${Diamond})`, height: "18vh", width: "36vh", backgroundSize: "100%", paddingTop: "1vh", 
+                fontWeight: "bold", fontSize: "11vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
                 handleSetDate("2/14")}>14</div>
-            <div style={{ backgroundImage: `url(${Diamond})`, height: "20vh", width: "40vh", backgroundSize: "100%", paddingTop: "1vh", 
-                fontWeight: "bold", fontSize: "13vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
+            <div style={{ backgroundImage: `url(${Diamond})`, height: "18vh", width: "36vh", backgroundSize: "100%", paddingTop: "1vh", 
+                fontWeight: "bold", fontSize: "11vh", color: "black", display: "inline-block", marginLeft: "24px"}} onClick={() => 
                 handleSetDate("2/24")}>24</div>
           </div>
         </div>
